@@ -30,9 +30,6 @@ class _HomeScreenState extends State<HomeScreen> {
     setState((){
       dlatitudeData = geoposition.latitude;
       dlongitudeData = geoposition.longitude;
-
-      //String slatitudeData = dlatitudeData.toString();
-      //String slognitudeData = dlongitudeData.toString();
     });
    }
   Widget build(BuildContext context) {
